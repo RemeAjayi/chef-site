@@ -1,0 +1,3 @@
+function showCheck() {
+    $(this).show();
+}

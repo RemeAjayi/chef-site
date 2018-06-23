@@ -1,0 +1,11 @@
+index - 0
+cart - 80%
+payment - 20% W
+shop - 95%
+product - 50% W
+admin - 80%
+modals- 0 W
+about - 10% W
+
+
+work on it - jun 20

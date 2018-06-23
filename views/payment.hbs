@@ -1,0 +1,30 @@
+{{> navbar}}
+<div class="container-fluid">
+<div class="row full-height">
+<div class="col-lg-6 p-5">
+<img src="/public/img/backgrounds/wallet.jpg">
+</div>
+<div class="col-lg-6 bg-brown p-5">
+<div id="payment" class="m-5 p-5">
+    <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="cardNo" class="green-text">Card Number</label>
+      <input type="text" class="form-control" id="cardNumber">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="expDate" class="green-text">CVV</label>
+      <input type="text" class="form-control" id="expiryDate">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="CVV" class="green-text">Expiry Date</label>
+    <input type="text" class="form-control" id="cvv">
+  </div>
+  <button type="submit" class="btn btn-lg btn-block ghost-button-green">Done</button>
+</form>
+    </div>  
+</div>
+</div>
+</div> 
+{{> footer}}

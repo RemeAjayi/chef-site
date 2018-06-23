@@ -1,0 +1,109 @@
+{{> navbar}}
+<div class="container-fluid">
+<div class="row">
+<nav id="sidebar" class="col-12 col-md-3 col-xl-2 bd-sidebar bg-brown"> <!-- nested nav-->
+<ul class="nav flex-column">
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+ Products</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="#">Create New Product</a>
+<a class="dropdown-item" href="#">Delete All Items</a>
+<a class="dropdown-item" href="#">An Extra Link</a>
+</div></li>
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Orders</a>
+  </li>
+<li class="nav-item">
+    <a class="nav-link active" href="#">Metrics</a>
+</li>
+
+<li class="nav-item">
+    <a class="nav-link" href="#">Settings</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+</li>
+</ul>
+</nav>
+<main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content">
+<div class="row greeting">
+<div class="col-lg-6">
+<h4>Hi Maryann!</h4>
+<h5>What do you want to do today?</h5>
+</div>
+<div class="col-lg-6">
+<form class="form-inline my-2 my-lg-0 float-right">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+</form>
+</div>
+</div>
+
+<div data-spy="scroll" data-target="#sidebar" data-offset="0">
+<!--List of Items-->
+<div class="full-height" id="list-items">
+<table class="table green-text mx-auto">
+ <tr class=""><th>ID</th><th colspan="2">Product Details</th><th>Price</th><th>Quantity</th><th>Total</th></tr> 
+<!--    item 1-->
+  <tr>
+    <td>1</td>
+    <td class="product-image"><img src="/public/img/thumbnails/beef-thumbnail.png" alt="beef"></td>
+    <td class="product-name">Marinated Beef in Asian Sauce</td>
+    <td class="price"> 2500</td>
+    <td class="quantity">
+    <div class="input-group">
+    <input type="text" class="form-control qty-select input-gold" style="width:5px;" value="3">
+    </div></td>
+    <td class="item-total">7500</td>
+    <td class="delete"><i class="fa fa-close"></i></td>
+    </tr>
+<!--item 2-->
+  <tr class="">
+    <td>2</td>
+    <td class="product-image"><img src="/public/img/thumbnails/beef-thumbnail.png" alt="beef"></td>
+    <td class="product-name">Marinated Beef in Asian Sauce</td>
+      <td class="price"> 2500</td>
+      <td class="quantity">
+     <div class="input-group">
+
+      <input type="text" class="form-control qty-select input-gold" style="width:5px;"  value="3">
+
+    </div></td>
+      <td class="item-total">7500</td>
+        <td class="delete"><i class="fa fa-close"></i></td>
+    </tr>
+</table>
+</div>
+</div>
+<!--Add new item-->
+<div class="full-height" id="add-new-items">
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="productName" class="green-text">Product Name</label>
+      <input type="text" class="form-control" id="productName">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="Price" class="green-text">Price</label>
+      <input type="text" class="form-control" id="Price">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="description" class="green-text">Description</label>
+    <textarea class="form-control" id="description"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="media" class="green-text">Media</label>
+    <input type="file" class="form-control" id="media">
+  </div>
+  <button type="submit" class="btn btn-lg btn-block ghost-button-green">Done</button>
+</form>
+</div>
+</main>
+</div>
+</div>
+{{> footer}}

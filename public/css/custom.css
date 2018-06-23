@@ -1,0 +1,172 @@
+
+.navbar{
+background-color: #395442;
+box-shadow: 0 .5rem 1rem rgba(0,0,0,.05),inset 0 -1px 0 rgba(0,0,0,.1);
+}
+.navbar-brand
+{
+    font-family: "Matura MT Script Capitals", serif;
+    color: #f2e3b4;
+    font-size: 20px;
+}
+.navbar-brand:hover, .navbar-brand:active
+{
+    background-color: #f2e3b4;
+    color: #395442;
+}
+
+.navbar ul li a {
+    color: #f2e3b4;
+}
+.navbar ul li a:hover, .navbar ul li a:active {
+    background-color: #f2e3b4;
+    color: #395442;
+}
+a{
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2,h3, h4, h5, h6, label{
+    font-family: 'Montserrat', sans-serif;
+    color: #ac9377;
+}
+p, table tr, table td, a{
+    font-family: 'Merriweather', serif;
+}
+footer{
+    padding: .5rem 1rem;
+    min-height: 20%;
+    text-align: center;
+    color: #f2e3b4;
+    background-color: #395442;
+}
+.filter
+{
+    border: 1px solid #395442;
+    color: #395442;
+    display: block;
+    background-color: #ffffff;
+    width: 112px;
+    border-radius: 5px;
+    margin: .5rem 1rem;
+}
+/* filter hover & active */
+.filter:hover, .filter:active {
+    background-color: #395442;
+    color: #f2e3b4;
+    display: block;
+}
+.filter-check
+{
+    display: none;
+}
+.card-details
+{
+ width: 200px;
+ height: 55px;
+}
+.card-details p{
+    color: #395442;
+}
+.item-price
+{   display: block;
+    padding-top: 0;
+}
+.per-plate
+{
+    display: inline;
+}
+.page-link{
+color: #395442;
+}
+.page-link:hover, .page-link:active{
+    background-color: #395442;
+    color: #f2e3b4;
+}
+.product-info, .testimonials
+{
+    height: 100vh;
+}
+.testimonials
+{
+  background-color: #f2e3b4;
+}
+.green-text
+{
+    color: #395442;
+}
+.gold-text
+{
+    color: #f2e3b4;
+}
+#cart
+{
+background-color: #f2e3b4;
+}
+
+#cart table{
+    border-color: #395442;
+    /* height: 80vh; */
+    width: 70%;
+}
+.ghost-button-green
+{
+  border: 2px solid #395442;
+  color: #395442;
+  background-color: inherit;
+  display: block;
+}
+.ghost-button-gold
+{
+  border: 2px solid #f2e3b4;
+  color: #f2e3b4;
+  background-color: inherit;
+  display: block;
+}
+.input-gold
+{
+  background-color: #f2e3b4;
+  border: 2px solid #395442;
+}
+#cart table tr{
+    border-top: 2px solid #395442;
+    border-bottom: 2px solid #395442;
+}
+.cart-total
+{
+    font-size: 20px;
+}
+.cart-sum
+{
+    font-size: 24px;
+}
+.full-height
+{
+   min-height: 100vh;
+}
+.bg-brown
+{
+  background-color: #f2e3b4;
+}
+.bg-green
+{
+  background-color: #395442;
+}
+#sidebar ul li
+{
+    border-bottom: 1px solid #395442;
+}
+#sidebar ul li a
+{
+    color: #395442;
+}
+#about
+{
+ max-width: 30%;
+}
+#address p{
+    font-size: 24px;
+}
+#quantity
+{
+    width: 60px;
+}
