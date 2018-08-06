@@ -11,8 +11,8 @@ exports.product_list = (req, res) => {
 //display on shop
 exports.product_list_shop = (req, res) => {
     Product.find().then((products) => {
-        res.send({products});
-        //res.render('shop.hbs', {products}); 
+        //res.send({products});
+        res.render('shop.hbs', {products}); 
        }, (e) => {
        res.status(400).send(e);
        });
